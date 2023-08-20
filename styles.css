@@ -1,14 +1,98 @@
-.logo{
-    width: 70px;
-    height: auto;
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    
 }
 
-.first-mountain{
-    width: 200px;
-    height: auto;
+.header{
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+   padding-left: 100px;
+   
 }
+
+.logo{
+    font-size: 24px;
+    color: #f9faf8;
+}
+.first-line{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+
+.right-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 20px;
+    margin-right: 10px;
+}
+
+.hero-h1{
+    font-size: 38px;
+    font-weight: 900;
+    color: #f9faf8;
+    margin-bottom: 0px;
+}
+
+.sub-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+}
+
+.text-content {
+    flex: 1; /* Takes up available space, pushing the image to the right */
+    padding: 20px;
+}
+
+
+.first-mountain{
+    max-width: 500px;
+    height: auto;
+    padding-right: 300px;
+    padding-bottom: 50px;
+}
+
+
+p{
+    color: #e5e7eb;
+    font-size: 18px;
+    
+}
+
+button{
+    background-color: #034cc2;
+    padding: 5px 15px;
+    border-radius: 15%;
+    color: #e5e7eb;
+    font-weight: bold;
+}
+
+
 
 .cards{
     width: 300px;
     height: auto;
+}
+
+ul{
+    list-style: none;
+
+}
+
+a{
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
 }
