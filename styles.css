@@ -9,12 +9,13 @@ body{
     flex-direction: column;
     background-color: #1f2937;
    padding-left: 100px;
-   
+   padding-right: 100px;
 }
 
 .logo{
     font-size: 24px;
     color: #f9faf8;
+    padding-left: 30px;
 }
 .first-line{
     display: flex;
@@ -62,7 +63,52 @@ body{
     height: auto;
     padding-right: 300px;
     padding-bottom: 50px;
+    
 }
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+
+
+
+.cards{
+    border: 2px solid blue;
+    max-width: 100%;
+    max-height: auto;
+    border-radius: 10%;
+}
+
+.content-mountains{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    
+}
+
+.content-mountains img{
+    flex:1;
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+}
+
+
+
+.text{
+  text-align: center;
+  
+}
+
+
+
 
 
 p{
