@@ -1,7 +1,8 @@
 body{
     font-family: 'Roboto', sans-serif;
     margin: 0;
-    
+   
+
 }
 
 .header{
@@ -72,6 +73,7 @@ body{
     justify-content: center;
     align-items: center;
     margin: 20px;
+    
 }
 
 
@@ -101,6 +103,24 @@ body{
 }
 
 
+.quote-content{
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding: 200px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.quote-message{
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+
 
 .text{
   text-align: center;
@@ -117,15 +137,72 @@ p{
     
 }
 
-button{
-    background-color: #034cc2;
+.content button{
+    background-color: #3882F6;
     padding: 5px 15px;
     border-radius: 15%;
     color: #e5e7eb;
     font-weight: bold;
+    cursor: pointer;
+
+
+
+    
+}
+
+.above-footer{
+    display: flex;
+    margin:100px auto ;
+    padding: 40px;
+    background-color: #3882F6;  
+    width: 1100px;
+    height: 50px;
+    border-radius: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 0;
+    background-image: url("https://i.pinimg.com/originals/85/05/05/8505051384604a66d6af0f6662e7dd44.gif");
+    
+    background-size:cover;
+}
+
+.above-footer h1{
+    font-size: 20px;
+    color: white;
+    margin-left: 50px;
+    margin-bottom: -15px;
+    margin-top: 30px;
+    
+}
+
+.last-p{
+    margin-left: 50px;
+    margin-top: 0;
 }
 
 
+.above-footer button{
+    padding: 5px 20px;
+    margin-left: 900px;
+    margin-top: -50px;
+    margin-bottom: 30px;
+    background-color: #3882F6;
+    border: white solid 1px;
+    border-radius: 10%;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    
+    
+}
+
+.footer{
+    background-color: #1f2937;
+    text-align: center;
+    margin-bottom: 0;
+    padding:20px;
+}
 
 .cards{
     width: 300px;
